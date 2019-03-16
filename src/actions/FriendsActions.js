@@ -6,6 +6,14 @@ export function addFriend(name) {
     name
   };
 }
+// This is to define the Action types associated with the Gender
+export function addGender(id, gender) {
+  return {
+    type: types.ADD_GENDER,
+    id,
+    gender
+  };
+}
 
 export function deleteFriend(id) {
   return {

@@ -4,3 +4,12 @@
   border-left: 0;
   border-right: 0;
 }
+
+:local(.friendsList) > select {
+  color: #fff;
+  font-weight: normal;
+  height: 28px;
+  text-shadow: 1px 1px 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
